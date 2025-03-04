@@ -74,7 +74,7 @@ elo_probability = EloProbabilityNormalWithWarlord(8, 1, 10)
 #print(monte_carlo(elo_probability))
 
 brackets = 100
-iterations = 100
+iterations = 10_000
 tests = 30
 mean_precision = 3
 stddev_precision = 3
